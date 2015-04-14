@@ -54,9 +54,6 @@ var tv = [];
             }
         });
 
-    });
-
-    $(window).load(function() {
         $('.slider > .tv').each(function() {
             $(this).attr('width', $('.slider').width());
         });
@@ -92,6 +89,9 @@ var tv = [];
             }
         }, 30);
 
+    });
+
+    $(window).load(function() {
         setTimeout(function() {
             var curIndex = $('.tv').index($('.slider > .tv'));
             tv[curIndex][3] = false;
