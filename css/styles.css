@@ -114,5 +114,7 @@ footer:after {content:"."; display:block; clear:both; visibility:hidden; height:
     .slider {background:#ccc}
     .slider-content {padding:0}
     .slider-content ul {float:none; margin:0 auto; text-align:center; width:auto; max-width:320px; padding:0 10px}
+    .main-photo {display:none}
     .slider .link-plus {right:50%; margin-right:-16px}
+    .articles {padding-left:30px}
 }
