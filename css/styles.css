@@ -86,7 +86,7 @@ footer:after {content:"."; display:block; clear:both; visibility:hidden; height:
     .contacts-link .link-plus {display:inline-block}
 }
 
-.articles {padding:21px 0 34px 0}
+.articles {padding:21px 0 34px}
 .article-title {font-weight:bold; font-size:18px; margin:25px 0 0 0}
 .article-title a {color:#333; text-decoration:none; display:block; position:relative; overflow:hidden}
 .article-title a:hover {color:#333}
@@ -114,5 +114,7 @@ footer:after {content:"."; display:block; clear:both; visibility:hidden; height:
     .slider {background:#ccc}
     .slider-content {padding:0}
     .slider-content ul {float:none; margin:0 auto; text-align:center; width:auto; max-width:320px; padding:0 10px}
+    .main-photo {display:none}
     .slider .link-plus {right:50%; margin-right:-16px}
+    .articles {padding-left:30px}
 }
