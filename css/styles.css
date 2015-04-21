@@ -38,25 +38,25 @@ nav ul li a:hover {color:#fff}
 .link-minus {background-position:left top}
 .link-plus {background-position:left -32px}
 
-aside {float:left; width:200px; font-size:13px; line-height:14px; padding:43px 0 0 0}
-aside p {margin:14px 0; padding:0}
+.aside {float:left; width:200px; font-size:13px; line-height:14px; padding:43px 0 0 0}
+.aside p {margin:14px 0; padding:0}
 .aside-links {padding:0 0 20px 0}
 .aside-links:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
 .aside-links a {float:left; margin:0 0 0 34px}
 .aside-links a:first-child {margin:0}
 
-article {margin:0 0 0 240px; padding:9px 0 0 0}
+.article {margin:0 0 0 240px; padding:9px 0 0 0}
 .page-main {margin:0 0 0 440px}
-article h1 {margin:31px 0; padding:0; font-weight:normal; font-size:25px; line-height:31px}
-article h2 {margin:28px 0; padding:0; font-weight:normal; font-size:22px; line-height:28px}
-article h3 {margin:25px 0; padding:0; font-weight:normal; font-size:19px; line-height:25px}
-article h4 {margin:24px 0; padding:0; font-weight:normal; font-size:16px; line-height:24px}
-article p {margin:24px 0; padding:0}
-article img {filter:grayscale(100%); -webkit-filter:grayscale(100%); -moz-filter:grayscale(100%); -ms-filter:grayscale(100%); -o-filter:grayscale(100%); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)}
-article img:hover {filter:grayscale(0); -webkit-filter:grayscale(0); -moz-filter:grayscale(0); -ms-filter:grayscale(0); -o-filter:grayscale(0); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0)}
-article ul,
-article ol {margin-top:24px; margin-bottom:24px}
-article li {margin:0; padding:0}
+.article h1 {margin:31px 0; padding:0; font-weight:normal; font-size:25px; line-height:31px}
+.article h2 {margin:28px 0; padding:0; font-weight:normal; font-size:22px; line-height:28px}
+.article h3 {margin:25px 0; padding:0; font-weight:normal; font-size:19px; line-height:25px}
+.article h4 {margin:24px 0; padding:0; font-weight:normal; font-size:16px; line-height:24px}
+.article p {margin:24px 0; padding:0}
+.article img {filter:grayscale(100%); -webkit-filter:grayscale(100%); -moz-filter:grayscale(100%); -ms-filter:grayscale(100%); -o-filter:grayscale(100%); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)}
+.article img:hover {filter:grayscale(0); -webkit-filter:grayscale(0); -moz-filter:grayscale(0); -ms-filter:grayscale(0); -o-filter:grayscale(0); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=0)}
+.article ul,
+.article ol {margin-top:24px; margin-bottom:24px}
+.article li {margin:0; padding:0}
 
 @media (max-width:840px) {
     .page-main {margin:0}
